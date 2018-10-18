@@ -24,6 +24,15 @@
     -->
     <style>
         #map { height:100%; }
+        
+        #header {
+            height:60px;
+            color:white;
+            background-color: darksalmon;
+            
+        }   
+        #header > * {display:inline
+        }
     </style>
 </head>
 
@@ -40,7 +49,17 @@
         - Course information (course name, your name, etc.)
         - A link to https://leafletjs.com using the text: "I built this with Leaflet"
     -->
+    <div id= 'header'> 
+<!--        The title for the map-->
+    <h1> My Very First Leaflet Map</h1>
+              <h5 style="margin:20px o;"> GIS 4533 | Anthony Maiolo | Fall 2018</h5>
+        <h5> 
+            <a href="https://leafletjs.com"> I made this using Leaflet</a>
+        </h5>
+    </div>
+    
 
+    
     <!-- the container for our map -->
     <div id="map"></div>
 
